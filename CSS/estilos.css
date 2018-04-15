@@ -1,0 +1,72 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+padding-left: 11em;
+font-family: Georgia, "Times New Roman",
+          Times, serif;
+          font-size:20px;
+	    color: black;
+
+background: -webkit-linear-gradient(left top, #F4FA58 , #58ACFA); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(bottom right, #F4FA58, #58ACFA); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(bottom right, #F4FA58, #58ACFA); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to bottom right, #F4FA58, #58ACFA); /* Standard syntax */
+}
+
+
+ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+  ul.navbar a {
+    text-decoration: none }
+  a:link {
+    color: blue }
+  a:visited {
+    color: purple }
+  address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }
+
+.LogoUNAD{
+    position: absolute;
+    top: 4em;
+    left: 1em;
+    width: 9em }
+}
+
+.CERTIFICALIDAD{
+    display: block;
+    float:right;
+    padding: 10px 15px;
+}
+.social {
+  position: fixed; 
+  left: 0;
+  top: 150px; 
+  z-index: 2000; 
+}
+ 
+  .social ul {
+    list-style: none;
+  }
+ 
+  .social ul li a {
+    display: block;
+    float:right;
+    color:#fff;
+    background: #000;
+    padding: 15px 25px;
+
+  }
+ 
+  .social ul li .icon-facebook {background:#3b5998;}
+  .social ul li .icon-twitter {background: #00abf0;}
+
+  .social ul li a:hover {
+    background: #000;
+    
